@@ -1,0 +1,30 @@
+from . import base_field_names
+
+FIELD_NAME_ID = base_field_names.LC_AZ_SRCH_FIELD_ID_NAME
+FIELD_NAME_CONTENT = base_field_names.LC_AZ_SRCH_FIELD_CONTENT_NAME
+FIELD_NAME_CONTENT_VECTOR = base_field_names.LC_AZ_SRCH_FIELD_CONTENT_VECTOR_NAME
+FIELD_NAME_METADATA = base_field_names.LC_AZ_SRCH_FIELD_METADATA_NAME
+FIELD_NAME_TITLE = "title"
+FIELD_NAME_URI = "uri"
+FIELD_NAME_FILE_NAME = "file_name"
+FIELD_NAME_FILE_TYPE = "file_type"
+FIELD_NAME_FILE_SIZE = "file_size"
+FIELD_NAME_LAST_MODIFIED = "last_modified"
+FIELD_NAME_FILE_HASH = "file_hash"
+FIELD_NAME_FILE_TOPIC = "file_topic"
+FIELD_NAME_FILE_TOPIC_VECTOR = "file_topic_vector"
+FIELD_NAME_FILE_LANGUAGE = "file_language"
+FIELD_NAME_CHUNK_TOPIC1 = "chunk_topic1"
+FIELD_NAME_CHUNK_TOPIC1_VECTOR = "chunk_topic1_vector"
+FIELD_NAME_CHUNK_TOPIC2 = "chunk_topic2"
+FIELD_NAME_CHUNK_TOPIC2_VECTOR = "chunk_topic2_vector"
+FIELD_NAME_CHUNK_TOPIC3 = "chunk_topic3"
+FIELD_NAME_CHUNK_TOPIC3_VECTOR = "chunk_topic3_vector"
+FIELD_NAME_CHUNK_IN_FILE_CTX_SUMMARY = "chunk_in_file_ctx_summary"
+FIELD_NAME_CHUNK_IN_FILE_CTX_SUMMARY_VECTOR = "chunk_in_file_ctx_summary_vector"
+FIELD_NAME_CHUNK_QUESTION1 = "chunk_question1"
+FIELD_NAME_CHUNK_QUESTION1_VECTOR = "chunk_question1_vector"
+FIELD_NAME_CHUNK_QUESTION2 = "chunk_question2"
+FIELD_NAME_CHUNK_QUESTION2_VECTOR = "chunk_question2_vector"
+FIELD_NAME_CHUNK_QUESTION3 = "chunk_question3"
+FIELD_NAME_CHUNK_QUESTION3_VECTOR = "chunk_question3_vector"
