@@ -133,6 +133,13 @@ module = [
 ]
 ignore_missing_imports = true
 
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.0.0"
+isort = "^5.12.0"
+
 [tool.poetry.group.custom-data]
 optional = true
 

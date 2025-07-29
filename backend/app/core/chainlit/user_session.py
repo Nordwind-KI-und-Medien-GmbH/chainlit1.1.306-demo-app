@@ -1,16 +1,17 @@
-# pydantic inteface with herbalista specific session variables and methods to the cl.user_session
-from ....chainlit import chainlit as cl
-from ....chainlit.user_session import UserSession
-from langchain_openai import AzureChatOpenAI
-from pydantic import BaseModel, Field
-from typing import Optional, Dict, Any, Union
+# pydantic interface with simple rag app specific session variables and methods to the cl.user_session
+from typing import Any, Dict, Optional, Union
+
+from langchain.agents import AgentExecutor
 from langchain_core.messages import BaseMessage
 from langchain_core.runnables import RunnableConfig
-from langchain.agents import AgentExecutor
+from langchain_openai import AzureChatOpenAI
+from pydantic import BaseModel, Field
+
+from ....chainlit import chainlit as cl
+from ....chainlit.user_session import UserSession
 
 
-
-class HerbalistaCLUserSession:
+class SimpleRagCLUserSession:
     CL_SEESSION_LLM_KEY = "cl_session_llm"
     CL_SESSION_CHAT_MEMORY_KEY = "cl_session_chat_memory"
     CL_SESSION_CHAT_HISTORY_KEY = "cl_session_chat_history"
@@ -38,14 +39,19 @@ class HerbalistaCLUserSession:
         """
         self._session.set(self.CL_SEESSION_LLM_KEY, value)
 
-
-    #cl.user_session.set("uploaded_files", True)
+    # cl.user_session.set("uploaded_files", True)
     @property
     def chat_has_uploaded_files(self) -> bool:
         """
         Get the uploaded files status from the session.
         """
-        return self._session.get(self.CL_SESSION_CHAT_HAS_UPLOADED_FILES_KEY) in [True, "True", "true", 1, "1"]
+        return self._session.get(self.CL_SESSION_CHAT_HAS_UPLOADED_FILES_KEY) in [
+            True,
+            "True",
+            "true",
+            1,
+            "1",
+        ]
 
     @chat_has_uploaded_files.setter
     def chat_has_uploaded_files(self, value: bool):
@@ -96,7 +102,6 @@ class HerbalistaCLUserSession:
         """
         self._session.set(self.CL_SESSSION_CURRENT_USER_KEY, value)
 
-
     # @property
     # def chat_memory(self) -> Optional[Any]:
     #     """
@@ -132,4 +137,4 @@ class HerbalistaCLUserSession:
     #     self._session[self.CL_SESSION_CHAT_HISTORY_KEY] = value
 
 
-herbalista_cl_user_session = HerbalistaCLUserSession()
+simple_rag_cl_user_session = SimpleRagCLUserSession()

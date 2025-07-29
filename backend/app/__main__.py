@@ -1,33 +1,32 @@
 # add curret path to sys.path
-from pathlib import Path
-import sys
 import os
+import sys
+from pathlib import Path
+
 sys.path.append(os.path.dirname(Path(os.path.abspath(__file__)).parent))
 print(f"sys.path: {sys.path}")
 
+from app.features.chat_file_upload import simple_rag_file_upload_handler
+
 # Import necessary modules and packages
 from chainlit import chainlit as cl
-from core.config import herbalista_config
-from core.chainlit.user_session import herbalista_cl_user_session
+from core.chainlit.user_session import simple_rag_cl_user_session
+from core.config import simple_rag_config
 from core.monitoring import register_phoenix_tracer
-from features import user_auth
-from features import thread_history
-
-from features.chat import handle_chat_session
-from app.features.chat_file_upload import file_upload_handler
+from features import thread_history, user_auth
+from features.chat import simple_rag_handle_chat_session
 from features.thread_history import resume_chat
-
 
 if __name__ == "__main__":
     # This is a debug script to test the chainlit application
     # It will run the chainlit app with the specified parameters
     from chainlit import chainlit as cl
     from chainlit.cli import run_chainlit
+
     # from chainlit.config import config
     # config.run.watch = True  # Enable live reload for development
 
     run_chainlit(__file__)
-
 
 
 # from datetime import datetime
@@ -201,7 +200,6 @@ if __name__ == "__main__":
 #     cl.user_session.set("embeddings", embeddings)
 #     cl.user_session.set("chat_file_upload_index", ChatFileUploadIndex())
 #     cl.user_session.set("phyto_herbs_index", PhytoHerbsIndex())
-
 
 
 # # Handler for the main message event
