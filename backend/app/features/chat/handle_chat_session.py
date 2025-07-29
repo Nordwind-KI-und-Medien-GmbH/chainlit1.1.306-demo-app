@@ -1,14 +1,16 @@
 from typing import Optional, Union
-from chainlit import chainlit as cl
+
+import chainlit as cl
+from app.core.chainlit.user_session import simple_rag_cl_user_session
+from app.core.config import simple_rag_config
+from app.core.services.azure_services.az_openai_svc.chat import SimpleRagChatLLM
+from app.features.chat.tool_agent_w_memory.chat_memory import SimpleRagChatMemory
+from app.features.chat_file_upload.file_upload_handler import file_loader
 from langchain.memory import ConversationSummaryBufferMemory
 
-from app.core.config import herbalista_config
-from app.core.services.azure_services.az_openai_svc.chat import HerbalistaChatLLM
-from app.core.chainlit.user_session import herbalista_cl_user_session
-from app.features.chat.tool_agent_w_memory.chat_memory import HerbalistaChatMemory
 from .chat_response_stream_handler import StreamHandler
-from app.features.chat_file_upload.file_upload_handler import file_loader
-from .tool_agent_w_memory.tool_agent import HerbalistaToolAgent, setup_runnable
+from .tool_agent_w_memory.tool_agent import SimpleRagToolAgent, setup_runnable
+
 
 @cl.on_chat_start
 async def start_chat():
@@ -22,6 +24,7 @@ async def start_chat():
     # Log the start of the chat session
     print("Chat session started.")
 
+
 @cl.on_message
 async def handle_message(message: cl.Message):
     """
@@ -29,13 +32,13 @@ async def handle_message(message: cl.Message):
     This function is the main entry point for processing user messages in the chat application.
     It handles both regular messages and file uploads.
     """
-    herbalista_cl_user_session.current_thread = message.thread_id
+    simple_rag_cl_user_session.current_thread = message.thread_id
 
     # If the message contains file elements, start the file loading process
     if message.elements:
         try:
             await file_loader(message)
-            herbalista_cl_user_session.agent_executor.memory.chat_memory.add_user_message(f"Es wurden {len(message.elements)} Dateien hochgeladen.") # type: ignore
+            simple_rag_cl_user_session.agent_executor.memory.chat_memory.add_user_message(f"{len(message.elements)} files have been uploaded.")  # type: ignore
         except Exception as e:
             await cl.Message(
                 author="System",
@@ -43,9 +46,7 @@ async def handle_message(message: cl.Message):
             ).send()
 
     # Get the agent executor from the user session
-    agent_executor: HerbalistaToolAgent = await setup_runnable(herbalista_cl_user_session.agent_executor.memory) # type: ignore
-    #agent_executor: HITLChatAssistant = await setup_runnable(herbalista_cl_user_session.agent_executor.memory) # type: ignore
-
+    agent_executor: SimpleRagToolAgent = await setup_runnable(simple_rag_cl_user_session.agent_executor.memory)  # type: ignore
 
     # Invoke the agent with the user message as input
     try:

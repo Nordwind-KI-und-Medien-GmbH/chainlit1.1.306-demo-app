@@ -1,15 +1,21 @@
-
 import mimetypes
 
 import chainlit as cl
+from app.core.chainlit.user_session import simple_rag_cl_user_session
+from app.core.config import simple_rag_config
+from app.core.services.azure_services.az_ai_search_svc import (
+    chat_file_upload_index_field_names as file_rag_fields,
+)
+from app.core.services.azure_services.az_ai_search_svc.chat_file_upload_index import (
+    ChatFileUploadIndex,
+)
+from app.features.chat_file_upload.uploaded_files_search_agent_tool import (
+    file_question_answering_tool,
+)
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import AzureAIDocumentIntelligenceLoader
-from app.core.config import herbalista_config
-from app.core.chainlit.user_session import herbalista_cl_user_session
-from app.core.services.azure_services.az_ai_search_svc.chat_file_upload_index import ChatFileUploadIndex
-from app.features.chat_file_upload.uploaded_files_search_agent_tool import file_question_answering_tool
+
 from ..chat.tool_agent_w_memory.tool_agent import setup_runnable
-from app.core.services.azure_services.az_ai_search_svc import chat_file_upload_index_field_names as file_rag_fields
 
 # Add all supported mimetypes so the app functions on app services
 mimetypes.add_type(
@@ -51,8 +57,8 @@ async def file_loader(message: cl.Message):
     documents = []
     for element in message.elements:
         loader = AzureAIDocumentIntelligenceLoader(
-            api_endpoint=herbalista_config.DOCUMENT_INTELLIGENCE_ENDPOINT, # type: ignore
-            api_key=herbalista_config.DOCUMENT_INTELLIGENCE_API_KEY,
+            api_endpoint=simple_rag_config.DOCUMENT_INTELLIGENCE_ENDPOINT,  # type: ignore
+            api_key=simple_rag_config.DOCUMENT_INTELLIGENCE_API_KEY,
             file_path=element.path,
             api_model="prebuilt-layout",
             mode="markdown",
@@ -64,7 +70,9 @@ async def file_loader(message: cl.Message):
 
         for doc in split_docs:
             doc.metadata[file_rag_fields.FIELD_NAME_THREAD_ID] = message.thread_id
-            doc.metadata[file_rag_fields.FIELD_NAME_USER_ID] = herbalista_cl_user_session.current_user.id # type: ignore
+            doc.metadata[file_rag_fields.FIELD_NAME_USER_ID] = (
+                simple_rag_cl_user_session.current_user or "anonymous"
+            )
             doc.metadata[file_rag_fields.FIELD_NAME_TITLE] = element.name
             documents.append(doc)
 
@@ -72,22 +80,22 @@ async def file_loader(message: cl.Message):
     if len(documents) == 1:
         single_doc = documents[0]
 
-        herbalista_cl_user_session.agent_executor.memory.chat_memory.add_ai_message(  # type: ignore
+        simple_rag_cl_user_session.agent_executor.memory.chat_memory.add_ai_message(  # type: ignore
             f"context: page_content={single_doc.page_content}, "
             f"title={single_doc.metadata.get(file_rag_fields.FIELD_NAME_TITLE, None)}"
         )
 
-        if file_question_answering_tool not in herbalista_cl_user_session.agent_executor.tools:  # type: ignore
-            herbalista_cl_user_session.agent_executor.tools.append(  # type: ignore
-                file_question_answering_tool )
+        if file_question_answering_tool not in simple_rag_cl_user_session.agent_executor.tools:  # type: ignore
+            simple_rag_cl_user_session.agent_executor.tools.append(  # type: ignore
+                file_question_answering_tool
+            )
     else:
         await ChatFileUploadIndex().aadd_documents(documents)
 
-    herbalista_cl_user_session.chat_has_uploaded_files = True
+    simple_rag_cl_user_session.chat_has_uploaded_files = True
 
-    await setup_runnable(herbalista_cl_user_session.agent_executor.memory) # type: ignore
+    await setup_runnable(simple_rag_cl_user_session.agent_executor.memory)  # type: ignore
     await cl.Message(
         author="System",
         content="Done reading and memorizing files.",
     ).send()
-

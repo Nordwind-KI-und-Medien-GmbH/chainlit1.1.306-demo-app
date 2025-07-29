@@ -1,11 +1,12 @@
 import os
-from ..config import herbalista_config
-from ....chainlit import chainlit as cl
-from ....chainlit.data.sql_alchemy import SQLAlchemyDataLayer
+
+import chainlit as cl
+from chainlit.data.sql_alchemy import SQLAlchemyDataLayer
+
+from ..config import simple_rag_config
 
 
 @cl.data_layer
 def get_data_layer():
     # return SQLAlchemyDataLayer(conninfo="sqlite+aiosqlite:///C:/adrian/dev/herbalista/herbalista-poc/herbalista.db")
-    return SQLAlchemyDataLayer(conninfo=herbalista_config.DATABASE_URL)
-
+    return SQLAlchemyDataLayer(conninfo=simple_rag_config.DATABASE_URL)

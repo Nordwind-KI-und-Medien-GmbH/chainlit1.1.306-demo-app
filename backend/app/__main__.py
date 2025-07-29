@@ -6,21 +6,20 @@ from pathlib import Path
 sys.path.append(os.path.dirname(Path(os.path.abspath(__file__)).parent))
 print(f"sys.path: {sys.path}")
 
-from app.features.chat_file_upload import simple_rag_file_upload_handler
-
 # Import necessary modules and packages
-from chainlit import chainlit as cl
-from core.chainlit.user_session import simple_rag_cl_user_session
-from core.config import simple_rag_config
-from core.monitoring import register_phoenix_tracer
-from features import thread_history, user_auth
-from features.chat import simple_rag_handle_chat_session
-from features.thread_history import resume_chat
+import chainlit as cl
+from app.core.chainlit.user_session import simple_rag_cl_user_session
+from app.core.config import simple_rag_config
+from app.core.monitoring import register_phoenix_tracer
+from app.features import thread_history, user_auth
+from app.features.chat import handle_chat_session
+from app.features.chat_file_upload import file_upload_handler
+from app.features.thread_history import resume_chat
 
 if __name__ == "__main__":
     # This is a debug script to test the chainlit application
     # It will run the chainlit app with the specified parameters
-    from chainlit import chainlit as cl
+    import chainlit as cl
     from chainlit.cli import run_chainlit
 
     # from chainlit.config import config

@@ -1,14 +1,13 @@
 # pydantic interface with simple rag app specific session variables and methods to the cl.user_session
 from typing import Any, Dict, Optional, Union
 
+import chainlit as cl
+from chainlit.user_session import UserSession
 from langchain.agents import AgentExecutor
 from langchain_core.messages import BaseMessage
 from langchain_core.runnables import RunnableConfig
 from langchain_openai import AzureChatOpenAI
 from pydantic import BaseModel, Field
-
-from ....chainlit import chainlit as cl
-from ....chainlit.user_session import UserSession
 
 
 class SimpleRagCLUserSession:
@@ -93,7 +92,10 @@ class SimpleRagCLUserSession:
         """
         Get the current user ID from the session.
         """
-        return self._session.get(self.CL_SESSSION_CURRENT_USER_KEY, None)
+        user = self._session.get(self.CL_SESSSION_CURRENT_USER_KEY, None)
+        if user and hasattr(user, "identifier"):
+            return user.identifier
+        return str(user) if user else "anonymous"
 
     @current_user.setter
     def current_user(self, value: str):

@@ -1,7 +1,4 @@
-from app.core.config import herbalista_config
-from .base import BaseHerbalistaAzureSearch
-from ...az_openai_svc.embeddings import AzureOpenAIEmbeddings, HerbalistaAzureOpenAIEmbeddings
-from . import base_file_index_field_names as field_names
+from app.core.config import simple_rag_config
 from azure.search.documents.indexes.models import (
     SearchableField,
     SearchField,
@@ -9,47 +6,49 @@ from azure.search.documents.indexes.models import (
     SimpleField,
 )
 
+from ...az_openai_svc.embeddings import SimpleRagAzureOpenAIEmbeddings
+from . import base_file_index_field_names as field_names
+from .base import BaseSimpleRagAzureSearch
 
-class BaseFileIndex(BaseHerbalistaAzureSearch):
-        
-    def __init__(self, 
-                 index_name: str,
-                 embeddings: HerbalistaAzureOpenAIEmbeddings):
-        super().__init__(
-            index_name=index_name,
-            embeddings=embeddings
-        )
 
-    
-        
-    def get_base_index_fields(self, 
-                                embedding_dimensions: int,
-                                metadata: bool = True,
-                                title: bool = True,
-                                uri: bool = True,
-                                filename: bool = True,
-                                file_type: bool = True,
-                                file_size: bool = True,
-                                last_modified: bool = True,
-                                file_hash: bool = True,
-                                file_topic: bool = True,
-                                file_language: bool = True,
-                                chunk_topic1: bool = True,
-                                chunk_topic2: bool = True,
-                                chunk_topic3: bool = True,
-                                chunk_in_file_ctx_summary: bool = True,
-                                chunk_question1: bool = True,
-                                chunk_question2: bool = True,
-                                chunk_question3: bool = True                                
-                              )-> list:
+class BaseFileIndex(BaseSimpleRagAzureSearch):
+    def __init__(self, index_name: str, embeddings: SimpleRagAzureOpenAIEmbeddings):
+        super().__init__(index_name=index_name, embeddings=embeddings)
+
+    def get_base_index_fields(
+        self,
+        embedding_dimensions: int,
+        metadata: bool = True,
+        title: bool = True,
+        uri: bool = True,
+        filename: bool = True,
+        file_type: bool = True,
+        file_size: bool = True,
+        last_modified: bool = True,
+        file_hash: bool = True,
+        file_topic: bool = True,
+        file_language: bool = True,
+        chunk_topic1: bool = True,
+        chunk_topic2: bool = True,
+        chunk_topic3: bool = True,
+        chunk_in_file_ctx_summary: bool = True,
+        chunk_question1: bool = True,
+        chunk_question2: bool = True,
+        chunk_question3: bool = True,
+    ) -> list:
         """Create the RAG index with the specified fields if it does not exist."""
         # Define fields for file based RAG index
         index_fields = [
             SimpleField(
-                name=field_names.FIELD_NAME_ID, type=SearchFieldDataType.String, key=True, filterable=True
+                name=field_names.FIELD_NAME_ID,
+                type=SearchFieldDataType.String,
+                key=True,
+                filterable=True,
             ),
             SearchableField(
-                name=field_names.FIELD_NAME_CONTENT, type=SearchFieldDataType.String, searchable=True
+                name=field_names.FIELD_NAME_CONTENT,
+                type=SearchFieldDataType.String,
+                searchable=True,
             ),
             SearchField(
                 name=field_names.FIELD_NAME_CONTENT_VECTOR,
@@ -57,14 +56,15 @@ class BaseFileIndex(BaseHerbalistaAzureSearch):
                 searchable=True,
                 vector_search_dimensions=embedding_dimensions,
                 vector_search_profile_name="myHnswProfile",
-            )
+            ),
         ]
 
         if metadata:
             index_fields.append(
                 SearchableField(
-                    name=field_names.FIELD_NAME_METADATA, 
-                    type=SearchFieldDataType.String, searchable=True
+                    name=field_names.FIELD_NAME_METADATA,
+                    type=SearchFieldDataType.String,
+                    searchable=True,
                 )
             )
 
@@ -72,7 +72,8 @@ class BaseFileIndex(BaseHerbalistaAzureSearch):
             index_fields.append(
                 SearchableField(
                     name=field_names.FIELD_NAME_TITLE,
-                    type=SearchFieldDataType.String, searchable=True
+                    type=SearchFieldDataType.String,
+                    searchable=True,
                 )
             )
 
@@ -196,7 +197,6 @@ class BaseFileIndex(BaseHerbalistaAzureSearch):
                 )
             )
 
-
         if chunk_topic3:
             index_fields.append(
                 SearchableField(
@@ -216,7 +216,6 @@ class BaseFileIndex(BaseHerbalistaAzureSearch):
                 )
             )
 
-
         if chunk_in_file_ctx_summary:
             index_fields.append(
                 SearchableField(
@@ -235,8 +234,6 @@ class BaseFileIndex(BaseHerbalistaAzureSearch):
                     vector_search_profile_name="myHnswProfile",
                 )
             )
-        
-
 
         if chunk_question1:
             index_fields.append(
@@ -294,6 +291,5 @@ class BaseFileIndex(BaseHerbalistaAzureSearch):
                     vector_search_profile_name="myHnswProfile",
                 )
             )
-
 
         return index_fields

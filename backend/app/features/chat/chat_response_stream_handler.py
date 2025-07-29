@@ -1,6 +1,6 @@
+import chainlit as cl
 from langchain.callbacks.base import BaseCallbackHandler
 
-from chainlit import chainlit as cl
 
 # Callback handler for handling streaming responses from the language model
 class StreamHandler(BaseCallbackHandler):
