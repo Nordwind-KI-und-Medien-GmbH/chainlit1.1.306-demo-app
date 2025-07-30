@@ -1,0 +1,119 @@
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Financial Accounting/Double Entry Accounting
+
+
+## Required readings
+
+· Bookeeping
+
+· Double Entry Accounting
+
+· Normal Balance
+
+· The Accounting Equation
+
+
+## Summary
+
+· Bookkeeping is the process of recording daily transactions into an accounting information
+system. That's just a fancy way of saying that it is recorded into accounting software (e.g.
+Quickbooks (http://quickbooks.intuit.com/). Keep in mind that bookkeeping, although
+paramount to accounting, is one aspect of accounting. Accounting is much more than just
+bookkeeping.
+
+· Double entry accounting is a conceptual framework used in virtually all reliable accounting
+systems around the world. It helps to prevents mistakes from being made and is relatively
+straightforward to implement. The concept is that for any entry made to an account, an
+equal or opposite entry must be made to another account (or accounts). We handle these
+opposing entries using a system of debits and credits which will be explained below.
+
+Accounts will have what's called a "normal balance". A normal balance is the type of balance
+(either a debit or a credit) that the account will have when it is positive. Assets have a debit
+normal balance, liabilities have a credit normal balance, equity has a credit normal balance,
+revenue has a credit normal balance and expenses have a debit normal balance. These will
+be more clear in the coming sections.
+
+· The accounting equation is an integral concept when recording transactions. The equation
+is what keeps the double entry accounting system in balance. The equation is:
+
+Assets = Liabilities + Owner's Equity
+
+This equation must always be true. Income statement account (revenues and expenses) can be thought of
+as increasing or decreasing equity. This is the reason that revenues have normal credit balances and
+expenses have normal debit balances. In practice, we display entries to be made by putting debits on the
+left and credits on the right. See below for some examples.
+
+<!-- PageBreak -->
+
+<!-- PageHeader="Examples" -->
+
+· A business is started by the owner putting $1,000 of her money into the company bank
+account. The entry is as follows:
+
+Cash
+1,000
+Equity
+
+1,000
+
+As you can see, the equation is satisfied as Assets = Liabilities + Owner's Equity. Also, debit balances are
+displayed on the left and credit balances are displayed on the right. Both accounts have increased in this
+entry.
+
+· The business purchases $500 worth of equipment with cash. Let's pretend it is a lawn
+mower:
+
+Equipment (lawn mower)
+
+500
+
+Cash
+
+500
+
+Again, the accounting equation remains true. Notice that this time, both entries were made on the asset
+side of the equation. One asset increased (equipment) while another decreased (cash).
+
+· The owner cuts a lawn for $100 and receives a promise to pay in a week:
+
+
+<table>
+<tr>
+<td>Accounts receivable</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Revenue</td>
+<td>100</td>
+</tr>
+</table>
+
+
+Remember that we can consider revenue and expenses as affecting the equity portion of the accounting
+equation. So in this instance, the equity is increased by $100 and the receivable balance is increased by
+$100 as well. The equation is still true.
+
+· A week goes by and the owner collects on his $100:
+
+Cash
+
+100
+
+Accounts receivable
+
+100
+
+Again, only the asset side of the equation is affected.
+
+· The owner purchases $50 worth of fuel for his lawn mower with cash:
+
+Fuel expense
+
+50
+

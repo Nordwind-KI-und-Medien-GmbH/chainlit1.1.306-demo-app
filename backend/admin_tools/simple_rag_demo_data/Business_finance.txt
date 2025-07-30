@@ -1,0 +1,110 @@
+<figure>
+
+<!-- PageHeader="WIKIVERSITY" -->
+
+</figure>
+
+
+# Business finance
+
+
+# If you are going to start a business you need to keep track of your finances.
+
+MONEY is the life blood of the economy and BUSINESS is the way in which people and capital are
+organized within the economy to create money and productivity. In essence, business is like the heart of
+the economy while money is the blood.
+
+Over the years a variety of laws [1] (https://www.sec.gov/about/laws.shtml) have been introduced to
+regulate financial aspects of business. Keeping track of finances in business helps to reduce fraud and
+waste. Keeping track of finances also allows for maximum efficiency to be attained. It is also the law.
+
+This course is intended to help give you an idea of how business finances work. This is a wiki, so you are
+encouraged to add and edit the course. This course will probably not lead you towards earning a degree in
+business, finance, accounting, or business finance; however, it will hopefully give you a better idea of
+how business finance works, and maybe, just maybe, if you wanted to start your own business and use
+sound financal practices, you could.
+
+The Time Value of Money
+
+
+# Balance sheet structure
+
+The following balance sheet structure is just an example. It does not show all possible kinds of assets,
+equity and liabilities, but it shows the most usual ones. Because it shows Goodwill it could be a
+consolidated balance sheet. Monetary values are not shown, summary (total) rows are missing as well.
+
+Balance Sheet of XYZ, Ltd. as on 31 December 2005
+
+
+# ASSETS
+
+
+## Current Assets
+
+Cash and cash equivalents
+Marketable Securities
+Accounts receivable
+
+<!-- PageBreak -->
+
+
+# Inventories Prepaid Expenses
+
+
+## Investments held for trading
+
+
+## Other current assets
+
+
+## Non-Current Assets (Fixed Assets)
+
+Property, plant and equipment
+
+Accumulated Depreciation
+
+Goodwill
+
+Other intangible fixed assets
+
+Investments in
+
+Deferred tax assets
+
+
+## and EQUITY
+
+Current liabilities
+
+Accounts payable
+
+Current income tax liabilities
+
+Current portion of bank loans payable
+
+Short-term provisions
+
+Other current liabilities
+
+
+## Long term Liabilities (Fixed Liabilities)
+
+Bank loans
+
+Issued debt securities
+
+Deferred tax liability
+
+Provisions
+
+Minority interest
+
+
+## Capital and reserves
+
+Share capital
+
+Capital reserves
+
+Revaluation reserve
+

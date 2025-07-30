@@ -69,6 +69,7 @@ class MessageBase(ABC):
             type=type,  # type: ignore
             disable_feedback=_dict.get("disableFeedback", False),
             language=_dict.get("language"),
+            metadata=_dict.get("metadata", None)
         )
 
         return message

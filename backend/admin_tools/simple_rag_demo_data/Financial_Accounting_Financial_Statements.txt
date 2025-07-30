@@ -1,0 +1,104 @@
+<figure>
+
+<!-- PageHeader="WIKIVERSITY" -->
+
+</figure>
+
+
+# Financial Accounting/Financial Statements
+
+
+## Required readings
+
+Read the following Wikipedia articles. Don't get too bogged down in the details at this time. Some of the
+concepts will be out of the scope of this session. They will be covered in detail in later sessions and
+courses.
+
+· Financial Statements
+
+· Balance Sheet
+
+· Income Statement
+
+· Cash Flow Statement
+
+· Investopedia (http://www.investopedia.com/university/financialstatements/)
+
+
+## Summary
+
+Financial statements are the final product of financial accounting. All of the effort that is
+done over the course of a year is compiled into these. In later courses, we will explore these
+statements in greater detail.
+
+The balance sheet looks at company at a specific point in time. This is an important
+distinction from the income statement which is discussed below. It displays the assets that
+are owned by the company, the liabilities owed by the company and the equity (the residual
+interest of the owners) in the company. This statement is important to analyze the overall
+"health" of a company.
+
+· The income statement displays the performance of a company over a period of time (e.g. a
+year). It displays how much revenue (not necessarily cash!) that was earned in the period
+and how many expenses (not necessarily cash!) were realized in the period. The difference
+becomes the profit. Profit can be reinvested (i.e. buy new assets or pay off debt) or can be
+paid out to owners (dividends). This statement is important to analyze how profitable a
+company is.
+
+· The cash flow statement displays cash adjustments made to the income statement to arrive
+at the cash balance on the balance sheet. This statement is necessary because accrual
+accounting does not equate to movements in cash as discussed in a prior section. This
+statement often causes beginners confusion and frustrations as it can be difficult to produce
+on more complicated statements. There are two types of cash flow statements: the direct
+and indirect statements. The indirect is the more common of the two. The cash flow
+statement is important to ensure that an organization is taking in enough cash to pay for
+their current obligations.
+
+· Financial statements contain foot notes after the statements themselves. These footnotes
+give additional details that are useful to users of the statements. For example, what types of
+property, plant and equipment make up the balance.
+
+<!-- PageBreak -->
+
+
+## Examples
+
+The following are some examples of financial statements of public companies. You can view the
+statements of any public entity. Keep in mind that these organizations are multi-billion dollar operations
+and have very complex statements. Small businesses have much simpler statements meaning there are
+fewer line items that make up each statement and far fewer and shorter note disclosures. Skim through
+these to get an idea of how the statements come together.
+
+· Apple 2013 (http://www.apple.com/pr/library/2013/10/28Apple-Reports-Fourth-Quarter-Resu
+lts.html)
+
+Tesla 2013 (http://files.shareholder.com/downloads/ABEA-4CW8X0/3558318320x0x727013/
+9885dd26-2e82-4052-b171-3685fd8150b3/Q4'13%20Shareholder%20Letter.pdf)
+
+· ExxonMobil 2013 (http://cdn.exxonmobil.com/en/shareholder-archive/~/media/Reports/Othe
+r%20Reports/2014/2013_ExxonMobil_Financials.pdf)
+
+
+## Problems
+
+· Waiting for contributors
+
+
+## Solutions
+
+· Waiting for contributors
+
+
+## Resources
+
+· Elements
+
+· Objectives
+
+Qualitative Characteristics
+
+· Underlying Assumptions
+
+Retrieved from "https://en.wikiversity.org/w/index.php?
+
+title=Financial_Accounting/Financial_Statements&oldid=1596186"
+

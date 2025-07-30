@@ -1,5 +1,5 @@
 import chainlit as cl
-from app.core.chainlit.user_session import simple_rag_cl_user_session
+from app.core.chainlit_config.user_session import simple_rag_cl_user_session
 from chainlit.types import ThreadDict
 
 from ..chat.tool_agent_w_memory.tool_agent import setup_runnable

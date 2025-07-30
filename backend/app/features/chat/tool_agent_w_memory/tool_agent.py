@@ -1,7 +1,7 @@
 from collections.abc import Sequence
 from typing import Optional, Union
 
-from app.core.chainlit.user_session import simple_rag_cl_user_session
+from app.core.chainlit_config.user_session import simple_rag_cl_user_session
 from app.core.services.azure_services.az_openai_svc.chat import SimpleRagChatLLM
 from langchain.agents import (
     AgentExecutor,
@@ -47,7 +47,7 @@ class SimpleRagToolAgent(AgentExecutor):
     @staticmethod
     def create(memory: Optional[SimpleRagChatMemory] = None) -> "SimpleRagToolAgent":
         """Creates an agent executor with the specified agent, tools, and memory (static version)."""
-        from app.core.chainlit.user_session import simple_rag_cl_user_session
+        from app.core.chainlit_config.user_session import simple_rag_cl_user_session
 
         prompt_template = SimpleRagChatPromptTemplate().get_prompt_template()
         tools = [simple_rag_search_tool]

@@ -1,0 +1,223 @@
+<!-- PageHeader="30.07.25, 21:52" -->
+<!-- PageHeader="Intermediate Financial Accounting - Wikiversity" -->
+
+
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Intermediate Financial Accounting
+
+
+## (Intermediate Financial Accounting) Financial statements
+
+
+### 1. Balance sheet
+
+· The balance sheet in its simplest form is covers the accounting equation (Asset=liabilities +
+Equity) at a specific point in time ex. Dec. 31 20XX.
+
+.
+
+.
+
+
+### 2. Income Statement
+
+· The income statement covers the profit and loss over a period of time such as year 20XX.
+With the Goal of finding the net income with the equation ( Net Income = Revenue+ Gain) -
+(expenses + losses)
+
+
+### 3. Cash Flow Statement
+
+· the statement of cash flows is primarily concerned with the changes in specific assets and
+liabilities over a period of time. the four areas that the cash flow statement reports on are
+operating activities (primary source business income), investing activities ( Changes in
+Property, plant and equipment and long term investments), Financing activities (Changes in
+Equity) and Supplemental information (Changes in significant items that do not involve
+cash such as exchanges)
+
+
+### Useful Ratios
+
+
+#### 1. . 1. Liquidity Ratios
+
+· Current
+
+· Acid test
+
+2\. Activity Ratios
+
+Turnover tests
+
+3\. Profitability Ratios
+
+· Return on Assets
+
+· Return on Equity
+
+· Profit Margin
+
+4\. Coverage Ratios
+
+<!-- PageFooter="https://en.wikiversity.org/wiki/Intermediate_Financial_Accounting" -->
+<!-- PageNumber="1/3" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="30.07.25, 21:52" -->
+<!-- PageHeader="Intermediate Financial Accounting - Wikiversity" -->
+
+
+## (Example Balance Sheet and Income Statement)
+
+
+<table>
+<tr>
+<th>Current assets</th>
+<th>Year 2</th>
+<th>Year 1</th>
+</tr>
+<tr>
+<td>Cash and Cash Equivalents</td>
+<td>$55</td>
+<td>$60</td>
+</tr>
+<tr>
+<td>Receivables</td>
+<td>$100</td>
+<td>$85</td>
+</tr>
+<tr>
+<td>Inventory</td>
+<td>$75</td>
+<td>$50</td>
+</tr>
+<tr>
+<td>Total Current Assets</td>
+<td>$220</td>
+<td>$190</td>
+</tr>
+<tr>
+<td>Non current assets</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Property, Plant, and Equipment</td>
+<td>$200</td>
+<td>$200</td>
+</tr>
+<tr>
+<td>Investments</td>
+<td>$20</td>
+<td></td>
+</tr>
+<tr>
+<td>Intangible Assets: Goodwill and Other</td>
+<td>$5</td>
+<td></td>
+</tr>
+<tr>
+<td>Total Assets</td>
+<td>$455</td>
+<td>$395</td>
+</tr>
+<tr>
+<td>Liabilities</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Accounts Payable</td>
+<td>$25</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Notes payable</td>
+<td>$75</td>
+<td>$30</td>
+</tr>
+<tr>
+<td>Current Liabilities</td>
+<td>$100</td>
+<td>$45</td>
+</tr>
+<tr>
+<td>Long-Term Debt</td>
+<td>$200</td>
+<td>$200</td>
+</tr>
+<tr>
+<td>Stockholders Equity</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Common stock</td>
+<td>$145</td>
+<td>$145</td>
+</tr>
+<tr>
+<td>Retained earnings</td>
+<td>$10</td>
+<td>$5</td>
+</tr>
+<tr>
+<td>Total Liabilities and Equity</td>
+<td>$455</td>
+<td>$395</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th>Income Statement</th>
+<th></th>
+</tr>
+<tr>
+<td>Sales</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Cost of Goods sold</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Selling, general and adminstrative</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Interest expense</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Total expense</td>
+<td>250</td>
+</tr>
+<tr>
+<td>Income before income taxes</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Income tax expense (30%)</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Net income</td>
+<td>35</td>
+</tr>
+</table>
+
+
+Liquidity Ratios Liquidity ratios these ratios measure a firms' efficiency and ability to meet
+obligations to other lenders
+
+<!-- PageFooter="https://en.wikiversity.org/wiki/Intermediate_Financial_Accounting" -->
+<!-- PageNumber="2/3" -->
+

@@ -1,0 +1,278 @@
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Financial Accounting/T-accounts
+
+
+## Required readings
+
+· Debits and credits
+
+
+## Summary
+
+· As we read in a previous section, for every accounting entry we make, there must be
+another entry (or series of entries) made to another account. More specifically, debits and
+credits must be in balance.
+
+· The concept of debits and credits is very important and will be the foundation of your
+accounting skills. Even accounting professionals still think in terms of debits and credits.
+These foundation principles are very important to master.
+
+. At this point, we will start using T-accounts to master the debits and credits. In modern
+accounting systems, T-accounts are no longer used, however, they are very useful in
+explaining bookkeeping concepts.
+
+· The following diagram will help explain the concept. Remember from our normal balance
+reading in the 5th session that assets and expenses have a normal debit balance and
+liabilities, equity and revenues have normal credit balances. It is common convention to put
+debits on the left, and credits on the right. Let's take a look at these in T-account format:
+
+
+<table>
+<tr>
+<th></th>
+<th>ASSETS</th>
+<th></th>
+<th>|</th>
+<th></th>
+</tr>
+<tr>
+<td colspan="4">LIABILITIES</td>
+<td></td>
+</tr>
+<tr>
+<th>CASH</th>
+<th></th>
+<th>ACCOUNTS RECEIVABLE</th>
+<th>| |</th>
+<th>ACCOUNTS</th>
+</tr>
+<tr>
+<td>PAYABLE</td>
+<td>LOAN</td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>|</td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>| | |</td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>| |</td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>| |</td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>INVENTORY</td>
+<td></td>
+<td>OVEN</td>
+<td>|</td>
+<td></td>
+</tr>
+</table>
+
+
+EQUITY
+
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th></th>
+<th></th>
+<th>|</th>
+<th></th>
+</tr>
+<tr>
+<th>|</th>
+<th>|</th>
+<th>|</th>
+<th>RETAINED</th>
+</tr>
+<tr>
+<td>EARNINGS</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>| |</td>
+<td>| |</td>
+<td>| | | |</td>
+<td>| | | |</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EXPENSES</td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>REVENUE</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>COST OF GOODS SOLD</td>
+<td>ELECTRICITY</td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>SALES</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-- |</td>
+<td>|</td>
+<td>| |</td>
+<td>|</td>
+</tr>
+<tr>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>|</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+</table>
+
+
+## Examples
+
+We will go through some examples using the T-accounts to illustrate how these debits and credits work.
+Keep in mind that accounting software will not use the T-accounts, these are just used for illustrative
+purposes. These are highly effective, however, to learn your debits and credits.
+
+Debby starts a bakery. She borrows $4,000 from her father to purchase an oven and some
+inventory (flour and other ingredients) to start making bread, cupcakes and other baked
+goods:
+
+
+<table>
+<tr>
+<th></th>
+<th>ASSETS</th>
+<th></th>
+<th>|</th>
+<th></th>
+</tr>
+<tr>
+<td>LIABILITIES</td>
+<td colspan="3"></td>
+<td></td>
+</tr>
+<tr>
+<th>CASH</th>
+<th></th>
+<th>ACCOUNTS RECEIVABLE</th>
+<th>| |</th>
+<th>ACCOUNTS</th>
+</tr>
+<tr>
+<td>PAYABLE</td>
+<td>LOAN</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4,000|</td>
+<td></td>
+<td>|</td>
+<td>| |</td>
+<td>|</td>
+</tr>
+<tr>
+<td>|4,000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>|</td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+</table>
+

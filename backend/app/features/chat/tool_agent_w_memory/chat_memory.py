@@ -1,4 +1,4 @@
-from app.core.chainlit.user_session import simple_rag_cl_user_session
+from app.core.chainlit_config.user_session import simple_rag_cl_user_session
 from app.core.config import simple_rag_config
 from app.core.services.azure_services.az_openai_svc.chat import SimpleRagChatLLM
 from langchain.memory import ConversationSummaryBufferMemory

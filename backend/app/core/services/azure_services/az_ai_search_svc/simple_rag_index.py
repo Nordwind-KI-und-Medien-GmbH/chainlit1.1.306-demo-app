@@ -34,7 +34,7 @@ class SimpleRagIndex(BaseFileIndex):
             chunk_question1=False,
             chunk_question2=False,
             chunk_question3=False,
-            uri=False,
+            uri=True,
             filename=False,
             file_type=False,
             file_size=False,

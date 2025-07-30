@@ -8,7 +8,7 @@ print(f"sys.path: {sys.path}")
 
 # Import necessary modules and packages
 import chainlit as cl
-from app.core.chainlit.user_session import simple_rag_cl_user_session
+from app.core.chainlit_config.user_session import simple_rag_cl_user_session
 from app.core.config import simple_rag_config
 from app.core.monitoring import register_phoenix_tracer
 from app.features import thread_history, user_auth

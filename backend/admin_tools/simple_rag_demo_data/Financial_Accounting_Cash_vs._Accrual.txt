@@ -1,0 +1,55 @@
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Financial Accounting/Cash vs. Accrual
+
+
+## Introduction
+
+In the following section, we will learn the differences between cash and accrual accounting and why we
+will be using accrual accounting going forward.
+
+
+## Required readings
+
+· Cash accounting
+
+· Accrual accounting
+
+· Khan Academy cash accounting (https://www.khanacademy.org/economics-finance-domain/
+core-finance/accounting-and-financial-stateme/cash-accrual-accounting/v/cash-accounting)
+
+· Khan Academy accrual accounting (https://www.khanacademy.org/economics-finance-doma
+in/core-finance/accounting-and-financial-stateme/cash-accrual-accounting/v/accrual-basis-of
+-accounting)
+
+· Khan Academy cash vs. accrual (https://www.khanacademy.org/economics-finance-domain/
+core-finance/accounting-and-financial-stateme/cash-accrual-accounting/v/comparing-accrua
+l-and-cash-accounting)
+
+
+## Summary
+
+As you can see, accrual accounting is much more representative of "economic activity" than cash
+accounting is and is the reason why the accrual method is used in practice. Unfortunately it is
+significantly more complicated and, as we will see in later courses, can get dramatically more
+complicated when multi-year contracts including expense matching takes place.
+
+
+## Problems
+
+· Waiting for contributors
+
+
+## Solutions
+
+· Waiting for contributors
+
+Retrieved from "https://en.wikiversity.org/w/index.php?
+
+title=Financial_Accounting/Cash_vs ._ Accrual&oldid=1596183"
+

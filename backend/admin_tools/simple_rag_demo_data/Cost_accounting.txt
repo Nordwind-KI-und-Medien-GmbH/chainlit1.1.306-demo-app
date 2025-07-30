@@ -1,0 +1,155 @@
+<figure>
+
+7
+
+0
+
+WIKIPEDIA
+The Free Encyclopedia
+
+Š
+
+92
+
+W
+
+3
+
+%
+
+維
+
+И
+
+7
+
+</figure>
+
+
+# Cost accounting
+
+Cost accounting is defined by the Institute of Management Accountants as "a systematic set of
+procedures for recording and reporting measurements of the cost of manufacturing goods and performing
+services in the aggregate and in detail. It includes methods for recognizing, allocating, aggregating and
+reporting such costs and comparing them with standard costs".[1] Often considered a subset or
+quantitative tool of managerial accounting, its end goal is to advise the management on how to optimize
+business practices and processes based on cost efficiency and capability. Cost accounting provides the
+detailed cost information that management needs to control current operations and plan for the future.[2]
+
+Cost accounting information is also commonly used in financial accounting, but its primary function is
+for use by managers to facilitate their decision-making.
+
+
+# Origins of cost accounting
+
+All types of businesses, whether manufacturing, trading or producing services, require cost accounting to
+track their activities.[2] Cost accounting has long been used to help managers understand the costs of
+running a business. Modern cost accounting originated during the Industrial Revolution when the
+complexities of running large scale businesses led to the development of systems for recording and
+tracking costs to help business owners and managers make decisions. Various techniques used by cost
+accountants include standard costing and variance analysis, marginal costing and cost volume profit
+analysis, budgetary control, uniform costing, inter firm comparison, etc. Evaluation of cost accounting is
+mainly due to the limitations of financial accounting. Moreover, maintenance of cost records has been
+made compulsory in selected industries as notified by the government from time to time.[3]
+
+In the early industrial age most of the costs incurred by a business were what modern accountants call
+"variable costs" because they varied directly with the amount of production. Money was spent on labour,
+raw materials, the power to run a factory, etc., in direct proportion to production. Managers could simply
+total the variable costs for a product and use this as a rough guide for decision-making processes.
+
+Some costs tend to remain the same even during idle periods, unlike variable costs, which rise and fall
+with volume of work (and thus variable costs are higher in busy periods, and fall during idle periods).
+Over time, these "fixed costs" have become more important to managers. Examples of fixed costs include
+the depreciation of plant and equipment, and the cost of departments such as maintenance, tooling,
+production control, purchasing, quality control, storage and handling, plant supervision and
+engineering.[4]
+
+In the early nineteenth century, these costs were of little importance to most businesses. However, with
+the growth of railroads, steel and large scale manufacturing, by the late nineteenth century these costs
+were often more important than the variable cost of a product, and allocating them to a broad range of
+products led to bad decision making. Managers must understand fixed costs in order to make decisions
+about products and pricing.
+
+<!-- PageBreak -->
+
+For example: a company produces railway coaches and has only one product. To make each coach, the
+company needs to purchase $60 of raw materials and components and pay 6 labourers $40 each.
+Therefore, the total variable cost for each coach was $300. Knowing that making a coach requirs
+spending $300, managers know they cannot sell below that price without losing money on each coach.
+Any price above $300 would make a contribution to the fixed costs of the company. If the fixed costs are,
+say, $1000 per month for rent, insurance and owner's salary, the company could therefore sell 5 coaches
+per month for a total of $3000 (priced at $600 each), or 10 coaches for a total of $4500 (priced at $450
+each), and make a profit of $500 in each case.
+
+
+## Cost accounting vs financial accounting
+
+
+<table>
+<caption>Differences between cost and financial accounting</caption>
+<tr>
+<th>Cost accounting</th>
+<th>Financial accounting</th>
+</tr>
+<tr>
+<td>Computes costs in a rigorous manner that facilitates cost control and cost reduction.</td>
+<td>Analyzes transitions in the current accounting period into financial statements (Statement of Cashflows, Profit or Loss, Balance Sheet etc.).</td>
+</tr>
+<tr>
+<td>Reports only to the organizations internal management to aid their decision-making.</td>
+<td>Reports the results and financial position of the business to the government, creditors, investors, and other external parties.</td>
+</tr>
+<tr>
+<td>Cost classifications based on functions, activities, products, processes and on the information needs of the organization in its planning and control.</td>
+<td>Cost classifications based on the types of transactions.</td>
+</tr>
+<tr>
+<td>Combines objective and subjective assessment of costs contributing to a standard result.</td>
+<td>Aims to present a 'true and fair' view of transactions.</td>
+</tr>
+<tr>
+<td>Information can be presented as accountants see fit.</td>
+<td>Must adhere to accounting standards such as the IFRS and GAAP.</td>
+</tr>
+</table>
+
+
+### Cost accounting methods
+
+The following are some of the different cost accounting approaches:
+
+· Activity-based costing
+
+· Cost-volume-profit analysis
+
+· Environmental accounting
+
+· Joint cost
+
+· Process costing
+
+· Project accounting
+
+· Resource consumption accounting
+
+· Standard cost accounting
+
+· Target costing
+
+· Throughput accounting
+
+· True cost accounting
+
+· Life-cycle costing
+
+
+### Elements of cost accounting
+
+Basic cost elements are:
+
+1\. Material
+
+2\. Labour
+
+3\. Expenses and other overheads
+

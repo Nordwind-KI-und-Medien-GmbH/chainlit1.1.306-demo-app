@@ -1,7 +1,7 @@
 import mimetypes
 
 import chainlit as cl
-from app.core.chainlit.user_session import simple_rag_cl_user_session
+from app.core.chainlit_config.user_session import simple_rag_cl_user_session
 from app.core.config import simple_rag_config
 from app.core.services.azure_services.az_ai_search_svc import (
     chat_file_upload_index_field_names as file_rag_fields,

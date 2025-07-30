@@ -1,0 +1,98 @@
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Introduction to Management Accounting
+
+
+## Lesson 01
+
+
+### Definition
+
+According to the Institute of Management Accountants (IMA), "Management accounting is a
+profession that involves partnering in management decision making, devising planning and performance
+management systems,and providing expertise in financial reporting and control to assist management in
+the formulation and implementation of an organization's strategy."
+
+The American Institute of Certified Public Accountants (AICPA) states that, "Management
+accounting as practice extends to the following three areas:
+
+· Strategic management-advancing the role of the management accountant as a strategic
+partner in the organization.
+
+· Performance management-developing the practice of business decision-making and
+managing the performance of the organization.
+
+· Risk management-contributing to frameworks and practices for identifying, measuring,
+managing and reporting risks to the achievement of the objectives of the organization."
+
+The Institute of Certified Management Accountants (ICMA) states, "A management accountant
+applies his or her professional knowledge and skill in the preparation and presentation of financial and
+other decision oriented information in such a way as to assist management in the formulation of policies
+and in the planning and control of the operation of the undertaking."
+
+Management accountants therefore are seen as the "value-creators" amongst the accountants. They are
+much more interested in forward looking and taking decisions that will affect the future of the
+organization, than in the historical recording and compliance (score keeping) aspects of the profession.
+Management accounting knowledge and experience can therefore be obtained from varied fields and
+functions within an organization, such as information management, treasury, efficiency auditing,
+marketing, valuation, pricing, logistics, etc.
+
+
+### Data and Information
+
+The term Data means facts and consist of numbers, letters, symbols, raw facts, events and transaction
+which have been recorded but not yet processed into a form suitable for use.
+
+Information is data which has been processed in such a way that it is meaningful to the person who
+receives it (for making decisions).
+
+<!-- PageBreak -->
+
+
+### Attributes of good information (ACCURATE)
+
+The attributes of good information can be defined by the ACCURATE acronym as shown below:
+
+. A.Accurate: The degree of accuracy depends on why the information is needed.
+
+. C.Complete: Managers should be given all the information they need, but information
+should not be excessive.
+
+. C.Cost-effective: The value of information should be higher than the cost of producing it.
+
+· U.Understandable: Use of technical jargon must be limited. Accountants must always be
+careful about the way in which they present financial information to non-financial managers.
+
+. R.Relevant: The information contained within a report should be relevant to its purpose.
+
+. A.Accessible; Information should be accessible via the appropriate channels of
+communication.
+
+. T.Timely: Information should be provided to a manager in time for him/her to be useful for
+decision making and control.
+
+· E.Easy to use.
+
+
+## Lesson 02
+
+
+### Main Functions involved with Management
+
+The main functions involved in management are Planning, Decision-making, and Control.
+
+· Planning:
+
+· Decision making:
+
+· Control:
+
+Retrieved from "https://en.wikiversity.org/w/index.php?
+
+title=Introduction_to_Management_Accounting&oldid=2138691"
+

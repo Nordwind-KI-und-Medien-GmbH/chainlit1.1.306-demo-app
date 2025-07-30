@@ -1,0 +1,123 @@
+<!-- PageHeader="30.07.25, 21:53" -->
+<!-- PageHeader="Auditing - Wikiversity" -->
+
+
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Auditing
+
+Auditing is the checking of financial or other records in order to issue an opinion thereon. There
+are different types of auditors including Internal auditors, Forensic auditors, External auditors.
+Auditing is not a new concept. If we see in history,in ancient Rome tax auditors were appoint to
+oversee the work of Tax collectors. An important type of audit is the financial audit. It is designed
+to determine whether financial statements are fairly presented in accordance with a specific
+accounting framework for example, the International Financial Reporting Standards (IFRS) or
+Generally_Accepted_Accounting_Principles(GAAP).
+
+In addition, financial audits may be performed for retirement funds, medical aid funds, private
+companies, registered charities, and some governmental and public entities. Private companies
+typically request financial audits year after year because lenders may have required an audit or
+owners may want to have external unbiased eyes look at the financial statements to determine if
+the company is complying with all the required accounting principles. Charities would require a
+financial audit to show the financial status of the organization to potential donors. Governments
+and government businesses are usually required to be audited by statutes to determine if all the
+money budgeted has been properly spent. Government financial reports are not always audited by
+outside auditors. Some governments have elected or appointed auditors.
+
+An audit report is issued to the members of the comapny or entity being audited, who appointed
+the auditor in terms of a legislated requirement to be audited, or for a specific purpose which is not
+necessarily legislated. The duties of the auditor and of the management of the entity being audited
+are set out, as well as the scope of the audit, which means the extent of the information that is
+being audited. It would be specified if the scope of the audit is limited by the appointment. Should
+the scope have been unlimited but management prevents access to certain information, this scope
+limitation may result in a qualified audit opinion, meaning that an opinion that the financial
+information is fairly presented can not be issued.
+
+The key to issuing an audit opinion is to determine whether the financial position or the financial
+results for the period being reported on is materially misstated. To be materially misstated, it has
+to be stated at an amount which is material, meaning that it is likely that the amount would
+influence the decisions made by the users of the financial statements.
+
+There are different types of opinions that can be issued in an audit report.
+
+An unmodified opinion states that the financial information is a fair presentation of the financial
+position and the financial results of the entity.
+
+An adverse opinion is the opposite of an unqualified opinion, therefore stating that the financial
+information is not a fair presentation of the financial position and the financial results of the
+entity.
+
+A disclaimer of an opinion states that there is an uncertainty pertaining to the financial
+information which is so fundamental as to make the issuing of an unqualified opinion impossible.
+
+<!-- PageFooter="https://en.wikiversity.org/wiki/Auditing" -->
+<!-- PageNumber="1/2" -->
+<!-- PageBreak -->
+
+30.07.25, 21:53
+
+
+# Auditing - Wikiversity
+
+A qualified opinion is an opinion which either relates to an uncertainty or a difference of opinion.
+Where an uncertainty is the issue, and it is considered material, but not fundamental to the whole
+set of financial information, the opinion would be worded as to being subject to any adjustments
+which would be necessary, should the uncertainty have been known. Where a difference of opinion
+ios the issue, the opinion would be issued on the financial information, except for those portions
+which the difference of opinion relates to. The circumstances and amounts involved when issuing a
+qaulifed opinion is stated in the body of the audit report.
+
+Audit Steps
+
+
+## Resources
+
+Search for Auditing at Wikiversity (https://en.wikiversity.org/w/index.php?title=Special%3ASear
+ch&ns0=1&ns4=1&ns100=1&ns102=1&ns104=1&search=Auditing&fulltext=Advanced+search)
+
+· w: Auditing
+
+
+## See also
+
+· Topic: Accounting
+
+
+## External links
+
+Directorate Internal Market of the European Union on the implementation of the IAS in the
+European Union (http://europa.eu/scadplus/leg/en/lvb/126040.htm)
+
+Deloitte | International Financial Reporting Standards (IFRS) (http://www.deloitte.com/view/en
+GB/uk/industries/financial-services/sector-focus/capital-markets/2c557501a5b91210VgnVCM2
+00000bb42f00aRCRD.htm) - More information on IFRS framework in benefiting Financial
+sector
+
+· Project Auditors - Dictionary of Auditing Terms (http://www.projectauditors.com/Auditor_Diction
+ary/AuditorDictionary.php)
+
+
+## Further reading
+
+Case studies of IFRS implementation (http://www.unctad.org/Templates/Page.asp?intltemID=4
+355&lang=1) in Brazil (http://www.unctad.org/en/docs/c2isard33a1_en.pdf), Germany (http://w
+ww.unctad.org/en/docs/c2isard33a2_en.pdf), India (http://www.unctad.org/en/docs/c2isard33a3
+en.pdf), Jamaica (http://www.unctad.org/en/docs/c2isard33a4_en.pdf), Kenya (http://www.unc
+tad.org/en/docs/c2isard33a5_en.pdf), Pakistan (http://www.unctad.org/en/docs/c2isard38_en.p
+df), South Africa (http://www.unctad.org/en/docs/c2isard39_en.pdf) and Turkey (http://www.unct
+ad.org/en/docs/c2isard40_en.pdf). Prepared by the United Nations Intergovernmental Working
+Group of Experts on International Standards of Accounting and Reporting (ISAR).
+
+. Wiley Guide to Fair Value Under IFRS [1] (http://ca.wiley.com/WileyCDA/WileyTitle/productCd-
+0470477083.html), John Wiley & Sons.
+
+Retrieved from "https://en.wikiversity.org/w/index.php?title=Auditing&oldid=1784022"
+
+<!-- PageFooter="https://en.wikiversity.org/wiki/Auditing" -->
+<!-- PageNumber="2/2" -->
+

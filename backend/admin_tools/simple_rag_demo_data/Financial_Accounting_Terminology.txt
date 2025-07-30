@@ -1,0 +1,76 @@
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Financial Accounting/Terminology
+
+
+## Introduction
+
+Part of learning a new profession is learning the jargon associated with it. Accounting is not unique in this
+regard. In this course, and in practice, there are many terms that are used that the listener is expected to
+know. The following is a list of some of the more common lingo that will get you by with basic
+bookkeeping and provide a foundation for future accounting concepts. You can always use your favorite
+search engine to find any definitions we have not covered here.
+
+
+## Basic Terminology
+
+We will go over some of the basic terms that you will start seeing right away and that you need to be
+familiar with. As the sessions and courses progress, new terms will be introduced and defined at that time.
+As we get into intermediate and advanced accounting, some of the terms below can be defined even
+further (e.g. asset).
+
+Asset - something that is owned that can be converted into cash (or is cash) or for the
+purpose of operations. Examples: cash, accounts receivable, land, truck.
+
+· Accounts receivable - represents amounts owing from customers for products delivered or
+services rendered.
+
+· Liability - represents obligations to others for products delivered, services rendered or
+monies loaned.
+
+· Accounts payable - represents amounts owing to suppliers for products delivered or
+services rendered.
+
+· Equity - what is left over after what you owe (liabilities) is subtracted from what you own
+(assets). Essentially the owner's residual interest in the company.
+
+
+## Basic Accounting Formula
+
+Assets=Liabilities+Equity
+
+Hint: Foundation to everything in accounting know it backwards forwards and side to side.
+
+Liabilities=Assets-Equity
+
+Assets-Liabilities=Equity
+
+<!-- PageBreak -->
+
+<!-- PageHeader="Problems" -->
+
+1
+What is the Equity?
+Big ABC Company
+Assets: $250
+Liabilities: $200
+Equity: $
+☐
+
+2
+What is the Liabilities?
+Small XZY Company
+Assets: $150
+Liabilities: $
+☐
+Equity: $100
+
+Submit
+
+Retrieved from "https://en.wikiversity.org/w/index.php?title=Financial_Accounting/Terminology&oldid=2170153"
+

@@ -72,6 +72,7 @@ langchain-community = ">=0.3.25,<0.4.0"
 openai = ">=1.86.0,<2.0.0"
 tiktoken = ">=0.9.0,<0.10.0"
 azure-identity = "^1.23.1"
+asyncpg = "^0.29.0"
 
 [tool.poetry.group.tests]
 optional = true

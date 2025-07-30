@@ -1,0 +1,111 @@
+<!-- PageHeader="30.07.25, 21:52" -->
+<!-- PageHeader="Financial Accounting - Wikiversity" -->
+
+
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Financial Accounting
+
+
+## Introduction
+
+Welcome to Financial Accounting! This course is being designed to introduce the basic skills
+needed to build a foundation for the field of accounting. As with all Wikiversity courses, this is a
+continual joint collaboration among numerous sources, so please check back at regular intervals
+for updates and new material. Also, please feel free to use the discussion tab at the top of the page
+for any questions, comments, concerns, or ideas concerning this course.
+
+Financial Accounting will be divided into sessions, each on its own page. Each session is meant to
+represent the material that would normally be consumed in a single classroom period.
+
+If you are an accounting whiz, we invite you to Be bold!
+
+
+## Prerequisites
+
+None. This course assumes no prior knowledge of accounting or finance.
+
+
+## Goals and Objectives
+
+By the end of this course, you will be able to:
+
+1\. Explain what the different branches of accounting are and why they are important.
+
+2\. Describe and use various terminology used in the field.
+
+3\. Describe and identify when to use accrual vs. cash accounting.
+
+4\. Read and analyze a set of financial statements.
+
+5\. Explain double entry accounting and the "accounting equation".
+
+6\. Perform basic double-entry accounting entries using T-accounts.
+
+7\. Perform depreciation entries on fixed assets
+
+8\. Perform end-of-period closing entries.
+
+9\. Describe the accounting cycles.
+
+
+## Textbook and required readings
+
+There is no textbook for this course. Required readings will be displayed in the individual sessions.
+They will be comprised of Wikipedia articles and URLs to other websites.
+
+<!-- PageFooter="https://en.wikiversity.org/wiki/Financial_Accounting" -->
+<!-- PageNumber="1/2" -->
+<!-- PageBreak -->
+
+<!-- PageHeader="30.07.25, 21:52" -->
+<!-- PageHeader="Financial Accounting - Wikiversity" -->
+
+
+## How to use this course
+
+This course is a work in progress and will, hopefully, be updated and improved continually.
+Education typically consists of three components: a lecture, class discussion and problem solving.
+The lecture component can be accessed through the links below under the "Sessions" heading.
+Some of the lectures consist of links to other sites to prevent re-inventing the wheel. The class
+discussion component can be accessed at the top left of the screen in the link "Discuss". The
+problem solving component will be in each of the sessions.
+
+Use this course on its own to brush up on your skills or as a complement to course work you've
+been given.
+
+
+## Sessions
+
+The following sessions will correspond to the numbered objectives in this syllabus.
+
+· Session 1 What do we mean by accounting?
+
+· Session 2 Put the what in the where?
+
+Session 3 Cash or accrual?
+
+Session 4 What is the point of all this?
+
+· Session 5 For every entry, there is an equal and opposite entry.
+
+· Session 6 Debits and credits visualized.
+
+· Session 7 Stretching out costs.
+
+
+## See also
+
+· Financial Accounting/MBA - accounting for the Wikiversity Master of Business Administration
+Program
+
+Retrieved from "https://en.wikiversity.org/w/index.php?title=Financial_Accounting&oldid=2716892"
+
+<!-- PageFooter="https://en.wikiversity.org/wiki/Financial_Accounting" -->
+<!-- PageNumber="2/2" -->
+

@@ -1,0 +1,41 @@
+<!-- PageHeader="30.07.25, 21:53" -->
+<!-- PageHeader="Managerial Accounting - Wikiversity" -->
+
+
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Managerial Accounting
+
+Welcome to the Managerial Accounting learning project of the Wikiversity Master of Business
+Administration Program.
+
+
+## Getting started
+
+Managerial Accounting refers to the broad application of accounting concepts to financial data to
+create reports to be interpreted by management. Such financial data, in contrast to Financial
+Accounting, does not have to comply with GAAP, the FASB, or the filing requirements of the SEC,
+since it is meant only for internal consumption within an organization.
+
+The major subjects to learn include:
+
+· Introduction
+
+· cost accounting
+
+activity based costing
+
+· project costing
+
+· budgeting
+
+Retrieved from "https://en.wikiversity.org/w/index.php?title=Managerial_Accounting&oldid=2717812"
+
+<!-- PageFooter="https://en.wikiversity.org/wiki/Managerial_Accounting" -->
+<!-- PageNumber="1/1" -->
+

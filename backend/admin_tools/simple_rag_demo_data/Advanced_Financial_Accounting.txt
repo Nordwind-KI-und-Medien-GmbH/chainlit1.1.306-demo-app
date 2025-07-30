@@ -1,0 +1,114 @@
+<!-- PageHeader="30.07.25, 21:52" -->
+<!-- PageHeader="Advanced Financial Accounting - Wikiversity" -->
+
+
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Advanced Financial Accounting
+
+Advance Financial Accounting will focus on US Governmental accounting. Explaining the main
+focus of governmental accounting, the different type of funds used and the different type
+accounting process used.
+
+Governmental accounting US Government can levi taxes no other form of accounting has this kind
+of power. The source of U.S. Governmental accounting is GASB (Governmental accounting
+standard board) the primary user of these Financial Statement are external users citizens/ School
+boards/ investor/ Creditors. Internal users are not consider primary user of this information
+governmental financial reporting is most concerned with Accountability that the resource on the
+book are real and the Governmental is responsible for them Interperiod equity That the current
+period revenues is sufficient to pay for current year expenses.
+
+Fund accounting Fund are what make up difference segments of government they are both a fiscal
+equity and an accounting Equity.
+
+Their are 3 main types of funds
+
+1\. Governmental funds: these accounts for sources and balances of general governmental
+financial resources.
+
+2\. Proprietary funds: account for business type activity
+
+3\. Fiduciary accounts for resources held by a government as a trustee or an agent for the benefit
+of others
+
+
+<table>
+<tr>
+<td>General Funds</td>
+<td>This fund accounts for everything not required to belong to another fund. Is use as a catch all and is always considered a major fund.</td>
+</tr>
+<tr>
+<td>Special Revenue Funds</td>
+<td>These accounts for revenue sources that are restricted or commited to be spent for specific purpose other than debt service or capital projects.</td>
+</tr>
+<tr>
+<td>Capital Fund Project</td>
+<td>Funds are restricted to the construction or acquisttion of capital facilities</td>
+</tr>
+<tr>
+<td>Debt Services Funds</td>
+<td>Funds restricted or committed for debt services principles and interest expenditures</td>
+</tr>
+<tr>
+<td>Permanent Funds</td>
+<td>Account for endowment for which earnings are restricted to support governmental programs dedicated for a public purpose</td>
+</tr>
+</table>
+
+
+## Proprietary Funds
+
+
+<table>
+<tr>
+<td>Enterprise Funds</td>
+<td>These funds are bussines type funds that the public buy from the government and is supported by fees. It also use Accrual accounting method</td>
+</tr>
+<tr>
+<td>Internal Service fund</td>
+<td>Bussines type activities where other government agency buy their service like a car repair shop that only work on police cars.</td>
+</tr>
+</table>
+
+
+Fiduciary Funds
+
+<!-- PageFooter="https://en.wikiversity.org/wiki/Advanced_Financial_Accounting" -->
+<!-- PageNumber="1/2" -->
+<!-- PageBreak -->
+
+30.07.25, 21:52
+
+<!-- PageHeader="Advanced Financial Accounting - Wikiversity" -->
+
+
+<table>
+<tr>
+<td>Pension trust funds</td>
+<td>Assets are held instrust to provide employee retirement benefits</td>
+</tr>
+<tr>
+<td>Private Purpose trust funds</td>
+<td>assets held in trust to benfit individuals</td>
+</tr>
+<tr>
+<td>Investment trust fund</td>
+<td>Accounts for the assets held in place for other government</td>
+</tr>
+<tr>
+<td>Agency funds</td>
+<td>Accounts for assets held in a custodial capacity</td>
+</tr>
+</table>
+
+
+Retrieved from "https://en.wikiversity.org/w/index.php?title=Advanced_Financial_Accounting&oldid=2083070"
+
+<!-- PageFooter="https://en.wikiversity.org/wiki/Advanced_Financial_Accounting" -->
+<!-- PageNumber="2/2" -->
+

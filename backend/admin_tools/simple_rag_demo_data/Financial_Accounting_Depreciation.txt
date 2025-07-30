@@ -1,0 +1,337 @@
+<figure>
+
+WIKIVERSITY
+
+</figure>
+
+
+# Financial Accounting/Depreciation
+
+
+## Required Readings
+
+· Matching Principle
+
+· Depreciation
+
+· Amortization
+
+· Residual Value
+
+· Useful Life (http://www.investopedia.com/terms/u/usefullife.asp)
+
+· Amortization vs. Depreciation (http://www.investopedia.com/ask/answers/06/amortizationvsd
+epreciation.asp)
+
+
+## Summary
+
+· Depreciation is the regular reduction in value of a fixed asset. Since the entry must be two
+sided, the entry is to debit depreciation expense and credit the accumulated depreciation.
+The net of the cost of the asset and accumulated depreciation is the net value of the asset.
+
+· The most common method of depreciation is straight-line depreciation. This method credits
+the asset by an equal amount over the asset's useful life (http://www.investopedia.com/term
+s/u/usefullife.asp).
+
+The residual value must be subtracted from the initial cost to determine the amount to
+expense each period. So the equation looks like this:
+
+Cost of asset - Residual Value
+
+Depreciation expense =
+
+Useful life
+
+· The net value on the balance sheet of an asset is not meant to reflect it's fair value (the
+value it could be sold for). Depreciation is a method of spreading the assets cost over
+several periods on the income statement and does not necessarily reflect its usage pattern.
+If this were not the case, companies could appear unprofitable in years of large investments
+such as the purchase of land and building even though those investments are meant to
+benefit the company over a longer period of time. This is a key component to accounting
+called the matching principle.
+
+
+## Examples
+
+We will go over a few examples to illustrate how these depreciation entries work.
+
+· Sherry buys a lawnmower with her own cash for $500 to start a lawn-care business:
+
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th></th>
+<th colspan="4">ASSETS</th>
+<th></th>
+<th>|</th>
+<th></th>
+</tr>
+<tr>
+<td>LIABILITIES</td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<th>CASH</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th>ACCOUNTS RECEIVABLE</th>
+<th>|</th>
+<th>ACCOUNTS</th>
+</tr>
+<tr>
+<td>PAYABLE</td>
+<td></td>
+<td></td>
+<td colspan="2">LOAN</td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>|</td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>| |</td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>| |</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>| | |</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>LAWNMOWER</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ACCUMULATED DEPRECIATION</td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>EQUITY</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>500|</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>RETAINED</td>
+</tr>
+<tr>
+<td>EARNINGS</td>
+<td colspan="4">OWNER'S EQUITY</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>|</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>|</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>|500 | |</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>|</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>|</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="4"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td colspan="3">EXPENSES</td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>REVENUE</td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>FUEL</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>DEPRECIATION</td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>SALES</td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td></td>
+</tr>
+<tr>
+<td>- - |</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>|</td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+<tr>
+<td>|</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>|</td>
+<td>|</td>
+<td>|</td>
+</tr>
+</table>
+

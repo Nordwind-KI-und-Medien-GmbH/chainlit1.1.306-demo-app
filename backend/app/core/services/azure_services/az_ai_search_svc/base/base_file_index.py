@@ -65,6 +65,7 @@ class BaseFileIndex(BaseSimpleRagAzureSearch):
                     name=field_names.FIELD_NAME_METADATA,
                     type=SearchFieldDataType.String,
                     searchable=True,
+                    filterable=True,
                 )
             )
 
