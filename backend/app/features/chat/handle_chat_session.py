@@ -1,6 +1,7 @@
 from typing import Optional, Union
 
 import chainlit as cl
+from app.core.chainlit_config.register_data_layer import init_data_layer
 from app.core.chainlit_config.user_session import simple_rag_cl_user_session
 from app.core.config import simple_rag_config
 from app.core.services.azure_services.az_openai_svc.chat import SimpleRagChatLLM
@@ -19,6 +20,9 @@ async def start_chat():
     This function is triggered when a chat session starts.
     It initializes the session and prepares the context for the user.
     """
+    # Initialize data layer when chat session starts
+    init_data_layer()
+
     await setup_runnable()
 
     # Log the start of the chat session

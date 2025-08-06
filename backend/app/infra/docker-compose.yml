@@ -4,7 +4,7 @@ services:
     container_name: simple-rag-pg
     restart: unless-stopped
     ports:
-      - "5432:5432"
+      - "15432:5432"
     environment:
       POSTGRES_USER: simple_rag
       POSTGRES_PASSWORD: simple_rag

@@ -6,4 +6,7 @@ from chainlit.data.sql_alchemy import SQLAlchemyDataLayer
 
 from ..config import simple_rag_config
 
-cl_data._data_layer = SQLAlchemyDataLayer(conninfo=simple_rag_config.DATABASE_URL)
+
+def init_data_layer():
+    """Initialize data layer after chainlit context is ready"""
+    cl_data._data_layer = SQLAlchemyDataLayer(conninfo=simple_rag_config.DATABASE_URL)
