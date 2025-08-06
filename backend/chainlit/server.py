@@ -929,6 +929,11 @@ async def get_avatar(avatar_id: str):
         return await get_favicon()
 
 
+@router.get("/health")
+async def health_check():
+    return {"status": "ok"}
+
+
 @router.head("/")
 def status_check():
     return {"message": "Site is operational"}
