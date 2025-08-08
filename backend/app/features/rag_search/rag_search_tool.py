@@ -26,7 +26,7 @@ async def simple_rag_search_tool(query: str) -> str:
     """
     try:
         simple_rag_index = SimpleRagIndex()
-        results = await simple_rag_index.semantic_search(query=query, k=5)
+        results = await simple_rag_index.asimilarity_search(query=query, k=5)
 
         return [
             {
