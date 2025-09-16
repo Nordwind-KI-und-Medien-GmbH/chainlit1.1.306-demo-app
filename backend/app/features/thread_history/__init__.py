@@ -9,4 +9,7 @@ if simple_rag_config.DATABASE_URL:
     # both (user auth and data layer) is needed to activate the thread history feature in the frontend
     from app.core.chainlit_config import register_header_auth_callback
 
-    from app.core.chainlit_config import register_data_layer  # Commented out - not needed for basic functionality
+    from app.core.chainlit_config.register_data_layer import init_data_layer  # Initialize data layer for thread persistence
+
+    # Initialize the data layer
+    init_data_layer()

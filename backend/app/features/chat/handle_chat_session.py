@@ -7,10 +7,14 @@ from app.core.config import simple_rag_config
 from app.core.services.azure_services.az_openai_svc.chat import SimpleRagChatLLM
 from app.features.chat.tool_agent_w_memory.chat_memory import SimpleRagChatMemory
 from app.features.chat_file_upload.file_upload_handler import file_loader
+from app.core.monitoring import get_pg_monitor, start_health_monitoring
 from langchain.memory import ConversationSummaryBufferMemory
+import logging
 
 from .chat_response_stream_handler import StreamHandler
 from .tool_agent_w_memory.tool_agent import SimpleRagToolAgent, setup_runnable
+
+logger = logging.getLogger(__name__)
 
 
 def detect_external_client() -> bool:
@@ -37,20 +41,36 @@ def extract_rag_chunks(intermediate_steps: List[tuple]) -> List[str]:
 
 
 @cl.on_chat_start
-async def start_chat():
-    """
-    Handle the start of a chat session.
-    This function is triggered when a chat session starts.
-    It initializes the session and prepares the context for the user.
-    """
-    # Initialize data layer when chat session starts
-    init_data_layer()
+async def on_chat_start():
+    logger.info("Chat session started")
 
-    await setup_runnable()
+    # Debug: Check user and authentication context
+    try:
+        current_user = cl.context.session.user
+        logger.info(f"Current user: {current_user}")
+        logger.info(f"User identifier: {current_user.identifier if current_user else 'None'}")
+        logger.info(f"Data layer: {cl.context.session.client_type}")
+    except Exception as e:
+        logger.warning(f"Could not get user context: {e}")
 
-    # Log the start of the chat session
-    print("Chat session started.")
+    # Initialize the agent executor for this session
+    try:
+        from .tool_agent_w_memory.tool_agent import setup_runnable
+        agent_executor = await setup_runnable()
+        logger.info("Agent executor initialized successfully")
+    except Exception as e:
+        logger.error(f"Failed to initialize agent executor: {e}")
+        # Continue with the session even if agent setup fails
 
+    # Safe connection monitoring (non-blocking)
+    try:
+        monitor = get_pg_monitor()
+        if monitor:
+            # Just log monitoring availability, don't perform async operations
+            logger.info("Connection monitoring available for this session")
+    except Exception as e:
+        # Don't fail the session if monitoring isn't available
+        logger.warning(f"Connection monitoring not available: {e}")
 
 @cl.on_message
 async def handle_message(message: cl.Message):
@@ -60,6 +80,15 @@ async def handle_message(message: cl.Message):
     It handles both regular messages and file uploads.
     """
     simple_rag_cl_user_session.current_thread = message.thread_id
+
+    # Monitor connections before processing (non-blocking, ignore errors)
+    monitor = get_pg_monitor()
+    stats_before = None
+    if monitor:
+        try:
+            stats_before = await monitor.get_connection_stats()
+        except Exception as e:
+            logger.debug(f"Could not get connection stats before message processing: {e}")
 
     # If the message contains file elements, start the file loading process
     if message.elements:
@@ -109,6 +138,25 @@ async def handle_message(message: cl.Message):
             author="System",
             content="An error occurred while processing the message. Please try again.",
         ).send()
+
+    # Check for connection leaks after processing (non-blocking, ignore errors)
+    if monitor and stats_before:
+        try:
+            stats_after = await monitor.get_connection_stats()
+
+            # Only check if both stats are healthy
+            if (stats_before.get('status') == 'healthy' and
+                stats_after.get('status') == 'healthy'):
+
+                before_active = stats_before.get('database_stats', {}).get('active_connections', 0)
+                after_active = stats_after.get('database_stats', {}).get('active_connections', 0)
+
+                if isinstance(before_active, int) and isinstance(after_active, int):
+                    if after_active > before_active + 1:  # Allow for some variance
+                        logger.info(f"Connection count increased from {before_active} to {after_active} during message processing")
+
+        except Exception as e:
+            logger.debug(f"Could not check connections after message processing: {e}")
 
 
 @cl.on_chat_end
